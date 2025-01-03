@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #171717;
+}
+
+.main{
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.menu-btn {
+  cursor: pointer;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu-title {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.menu ul {
+  margin-top: 20px;
+}
+
+.menu-li {
+  margin-bottom: 25px;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-title{
+  color: #f3f3f3;
+  font-size: 1.3rem;
+}
+
+.form-input{
+  color: #f3f3f3;
+  padding: 0 10px;
+  outline: none;
+}
+
+.form-btn{
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+.blockquote{
+  width: 100%;
+  padding: 10px;
+  overflow: visible !important;
+  padding-left: 10px;
+}
+
+.quote-content::first-letter{
+  text-transform: capitalize;
+}
+
+.download-btn{
+  width: 100%;
+}
+
+.download-btn:active{
+  background-color: white;
+  color: #171717;
+}
+
+.btn{
+  width: 100%;
+}
+
+.container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.delete-quote-btn{
+  background-color: rgb(224, 55, 55);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.delete-quote-btn:active{
+  border: 1px solid rgb(224, 55, 55);
+  background-color: transparent;
+  color: rgb(224, 55, 55);
+}
+
+.error-btn{
+  width: 150px;
+}
+
+.footer-text{
+  text-align: center;
+  color: #ccc;
+}
