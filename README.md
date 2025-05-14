@@ -19,7 +19,7 @@ A mobile-focused application built with **React**, **Vite**, and **Chakra UI**. 
 ### 3. **Saved Quotes List**
 ![Saved Quotes List](./public/image3.png)
 
-### 4. **Manage Saved Quotes**
+### 4. **Sidebar**
 ![Sidebar](./public/image4.png)
 
 ## Tech Stack
